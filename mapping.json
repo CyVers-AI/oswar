@@ -1,0 +1,906 @@
+{
+    "tags": [
+      {
+        "name": "Defense Evasion",
+        "id": "defense_evasion"
+      },
+      {
+        "name": "Collection",
+        "id": "collection"
+      },
+      {
+        "name": "Reconnaissance",
+        "id": "reconnaissance"
+      },
+      {
+        "name": "Resource Development",
+        "id": "resource_development"
+      },
+      {
+        "name": "Initial Access",
+        "id": "initial_access"
+      },
+      {
+        "name": "Discovery",
+        "id": "discovery"
+      },
+      {
+        "name": "Execution",
+        "id": "execution"
+      },
+      {
+        "name": "Command And Control",
+        "id": "command_and_control"
+      },
+      {
+        "name": "Persistence",
+        "id": "persistence"
+      },
+      {
+        "name": "Credential Access",
+        "id": "credential_access"
+      },
+      {
+        "name": "Privilege Escalation",
+        "id": "privilege_escalation"
+      },
+      {
+        "name": "Extra filtration",
+        "id": "extra_filtration"
+      },
+      {
+        "name": "Lateral Movement",
+        "id": "lateral_movement"
+      },
+      {
+        "name": "Impact",
+        "id": "impact"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Malicious Deployment",
+        "id": "malicious_deployment"
+      },
+      {
+        "name": "Money Laundering",
+        "id": "money_laundering"
+      },
+      {
+        "name": "User Target",
+        "id": "user_target"
+      },
+      {
+        "name": "Logic",
+        "id": "logic"
+      },
+      {
+        "name": "Oracle / AMM",
+        "id": "Oracle_AMM"
+      },
+      {
+        "name": "Cross Chain",
+        "id": "cross_chain"
+      },
+      {
+        "name": "Smart Contract Vulnerabilities",
+        "id": "smart_contract_vulnerabilities",
+        "sub_categories": [
+            {
+              "name": "Higher-level Programming Language",
+              "id": "higher-level_programming_language"
+            },
+            {
+              "name": "Inter Contract Vulnerabilities",
+              "id": "inter_contract_vulnerabilities"
+            },
+            {
+              "name": "Intra Contract Vulnerabilities",
+              "id": "intra_contract_vulnerabilities"
+            },
+            {
+              "name": "Other DeFi Vulnerabilities",
+              "id": "other_defi_vulnerabilities"
+            }
+          ]
+      },
+      {
+        "name": "Higher Privilege Attacks",
+        "id": "higher_privilege_attacks"
+      },
+      {
+        "name": "Malware Based",
+        "id": "malware_based"
+      },
+      {
+        "name": "Acquire Private Key",
+        "id": "acquire_private_key"
+      },
+      {
+        "name": "Analysis & Profiling",
+        "id": "analysis_profiling"
+      }
+    ],
+    "attacks": [
+        {
+          "id": "0",
+          "name": "Chain Hopping",
+          "categories_id": [
+              "money_laundering"
+          ],
+          "tag_id": "defense_evasion",
+          "path": "/defense_evasion/chain_hopping.md"
+      },
+      {
+        "id": "1",
+        "name": "Encryption",
+        "categories_id": [
+          "money_laundering"
+        ],
+        "tag_id": "defense_evasion",
+        "path": "/defense_evasion/encryption.md"
+      },
+      {
+        "id": "2",
+        "name": "Obfuscation",
+        "categories_id": [
+          "money_laundering"
+        ],
+        "tag_id": "defense_evasion",
+        "path": "/defense_evasion/obfuscation.md"
+      },
+      {
+        "id": "3",
+        "name": "Mixing services",
+        "categories_id": [
+          "money_laundering"
+        ],
+        "tag_id": "defense_evasion",
+        "path": "/defense_evasion/mixing_services.md"
+      },
+      {
+        "id": "4",
+        "name": "Off-chain OSINT",
+        "categories_id": [
+          "analysis_&_profiling"
+        ],
+        "tag_id": "collection",
+        "path": "/collection/off-chain_osint.md"
+      },
+      {
+        "id": "5",
+        "name": "On-chain OSINT",
+        "categories_id": [
+          "analysis_&_profiling"
+        ],
+        "tag_id": "collection",
+        "path": "/collection/on-chain_osint.md"
+      },
+      {
+        "id": "6",
+        "name": "Social Engineering 1",
+        "categories_id": [
+          "acquire_private_key"
+        ],
+        "tag_id": "reconnaissance",
+        "path": "/reconnaissance/social_engineering_one.md"
+      },
+      {
+        "id": "7",
+        "name": "API endpoints",
+        "categories_id": [
+          "infrastructure"
+        ],
+        "tag_id": "reconnaissance",
+        "path": "/reconnaissance/api_endpoints.md"
+      },
+      {
+        "id": "8",
+        "name": "Malware",
+        "categories_id": [
+          "malware_based"
+        ],
+        "tag_id": "reconnaissance",
+        "path": "/reconnaissance/malware.md"
+      },
+      {
+        "id": "9",
+        "name": "Smart Contract Vulnerability Scanning",
+        "categories_id": [
+          "analysis_&_profiling"
+        ],
+        "tag_id": "reconnaissance",
+        "path": "/reconnaissance/smart_contract_scanning.md"
+      },
+      {
+        "id": "10",
+        "name": "Brute Force Attacks",
+        "categories_id": [
+          "infrastructure"
+        ],
+        "tag_id": "resource_development",
+        "path": "/resource_development/brute_force_attack.md"
+      },
+      {
+        "id": "11",
+        "name": "Acquire Resources for Network Based Attacks",
+        "categories_id": [
+          "infrastructure"
+        ],
+        "tag_id": "resource_development",
+        "path": "/resource_development/resources_for_network-based_attacks.md"
+      },
+      {
+        "id": "12",
+        "name": "Keylogger",
+        "categories_id": [
+          "malware_based"
+        ],
+        "tag_id": "resource_development",
+        "path": "/resource_development/keylogger.md"
+      },
+      {
+        "id": "13",
+        "name": "Malware",
+        "categories_id": [
+          "malware_based"
+        ],
+        "tag_id": "resource_development",
+        "path": "/resource_development/malware.md"
+      },
+      {
+        "id": "14",
+        "name": "Spear Phishing",
+        "categories_id": [
+          "acquire_private_key"
+        ],
+        "tag_id": "resource_development",
+        "path": "/resource_development/spear_phishing.md"
+      },
+      {
+        "id": "15",
+        "name": "Credential Stuffing",
+        "categories_id": [
+          "acquire_private_key"
+        ],
+        "tag_id": "resource_development",
+        "path": "/resource_development/credential_stuffing.md"
+      },
+      {
+        "id": "16",
+        "name": "Phishing for Information",
+        "categories_id": [
+          "acquire_private_key"
+        ],
+        "tag_id": "resource_development",
+        "path": "/resource_development/phishing_for_information.md"
+      },
+      {
+        "id": "17",
+        "name": "Social Engineering 2",
+        "categories_id": [
+          "acquire_private_key"
+        ],
+        "tag_id": "resource_development",
+        "path": "/resource_development/social_engineering.md"
+      },
+      {
+        "id": "18",
+        "name": "Network Profiling",
+        "categories_id": [
+          "analysis_&_profiling"
+        ],
+        "tag_id": "resource_development",
+        "path": "/resource_development/network_profiling.md"
+      },
+      {
+        "id": "19",
+        "name": "Malicious Code Injection",
+        "categories_id": [
+          "malicious_deployment"
+        ],
+        "tag_id": "resource_development",
+        "path": "/resource_development/malicious_code_injection.md"
+      },
+      {
+        "id": "20",
+        "name": "Malicious Code Injection",
+        "categories_id": [
+          "malicious_deployment"
+        ],
+        "tag_id": "initial_access",
+        "path": "/initial_access/malicious_code_injection.md"
+      },
+      {
+        "id": "21",
+        "name": "Forged Address Phishing",
+        "categories_id": [
+          "user_target"
+        ],
+        "tag_id": "initial_access",
+        "path": "/initial_access/forged_address_phishing.md"
+      },
+      {
+        "id": "22",
+        "name": "On-Chain Scams",
+        "categories_id": [
+          "user_target"
+        ],
+        "tag_id": "initial_access",
+        "path": "/initial_access/on-chain_scams.md"
+      },
+      {
+        "id": "23",
+        "name": "Malware",
+        "categories_id": [
+          "malware_based"
+        ],
+        "tag_id": "initial_access",
+        "path": "/initial_access/malware.md"
+      },
+      {
+        "id": "24",
+        "name": "Zero Transfer Phishing",
+        "categories_id": [
+          "user_target"
+        ],
+        "tag_id": "initial_access",
+        "path": "/initial_access/zero_transfer_phishing.md"
+      },
+      {
+        "id": "25",
+        "name": "Phishing",
+        "categories_id": [
+          "acquire_private_key"
+        ],
+        "tag_id": "initial_access",
+        "path": "/initial_access/phishing.md"
+      },
+      {
+        "id": "26",
+        "name": "Server Access",
+        "categories_id": [
+          "infrastructure"
+        ],
+        "tag_id": "initial_access",
+        "path": "/initial_access/server_access.md"
+      },
+      {
+        "id": "27",
+        "name": "Validator Privileges",
+        "categories_id": [
+          "higher_privilege_attacks"
+        ],
+        "tag_id": "initial_access",
+        "path": "/initial_access/validator_privileges.md"
+      },
+      {
+        "id": "28",
+        "name": "Dumpster Diving",
+        "categories_id": [
+          "acquire_private_key"
+        ],
+        "tag_id": "discovery",
+        "path": "/discovery/dumpster_diving.md"
+      },
+      {
+        "id": "29",
+        "name": "API Discovery",
+        "categories_id": [
+          "infrastructure"
+        ],
+        "tag_id": "discovery",
+        "path": "/discovery/api_discovery.md"
+      },
+      {
+        "id": "30",
+        "name": "MEV",
+        "categories_id": [
+          "user_target"
+        ],
+        "tag_id": "execution",
+        "path": "/execution/mev.md"
+      },
+      {
+        "id": "31",
+        "name": "Check Effect Interaction (CEI)",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "intra_contract_vulnerabilities"
+        ],
+        "tag_id": "execution",
+        "path": "/execution/check_effect_interaction.md"
+      },
+      {
+        "id": "32",
+        "name": "Uninitialized Storage Pointers",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "higher_level_programming_language"
+        ],
+        "tag_id": "execution",
+        "path": "/execution/uninitialized_storage_pointers.md"
+      },
+      {
+        "id": "33",
+        "name": "Default Visibility",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "higher_level_programming_language"
+        ],
+        "tag_id": "execution",
+        "path": "/execution/default_visibility.md"
+      },
+      {
+        "id": "34",
+        "name": "Integer Overflow Underflow",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "higher_level_programming_language"
+        ],
+        "tag_id": "execution",
+        "path": "/execution/integer_overflow_underflow.md"
+      },
+      {
+        "id": "35",
+        "name": "Bad Randomness",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "intra_contract_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/bad_randomness.md"
+      },
+      {
+        "id": "36",
+        "name": "Block Timestamp Manipulation",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "intra_contract_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/block_timestamp_manipulation.md"
+      },
+      {
+        "id": "37",
+        "name": "Access Control Issues",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "intra_contract_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/access_control_issues.md"
+      },
+      {
+        "id": "38",
+        "name": "Constructors with Care",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "higher_level_programming_language"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/constructors_with_care.md"
+      },
+      {
+        "id": "39",
+        "name": "Cross Chain Bridge Attacks",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "other_defi_vulnerabilities",
+          "cross_chain"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/cross-chain_bridge_attacks.md"
+      },
+      {
+        "id": "40",
+        "name": "Crypto Jacking",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "other_defi_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/crypto-jacking.md"
+      },
+      {
+        "id": "41",
+        "name": "Delegate Call",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "inter_contract_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/delegate_call.md"
+      },
+      {
+        "id": "42",
+        "name": "Denial of Service - DOS",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "other_defi_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/denial_of_service_(dos).md"
+      },
+      {
+        "id": "43",
+        "name": "Dependency Risks",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "inter_contract_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/dependency_risks.md"
+      },
+      {
+        "id": "44",
+        "name": "Entropy Illusion Predictability",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "intra_contract_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/entropy_illusion_predictability.md"
+      },
+      {
+        "id": "45",
+        "name": "External Contract Referencing",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "inter_contract_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/external_contract_referencing.md"
+      },
+      {
+        "id": "46",
+        "name": "Flash Loan - AMM Exploitation",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "other_defi_vulnerabilities",
+          "oracle_amm"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/flash_loan_(amm exploitation).md"
+      },
+      {
+        "id": "47",
+        "name": "Floating Pragma",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "higher_level_programming_language"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/floating_pragma.md"
+      },
+      {
+        "id": "48",
+        "name": "Logic Bombs",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "other_defi_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/logic_bombs.md"
+      },
+      {
+        "id": "49",
+        "name": "Oracle Attack",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "other_defi_vulnerabilities",
+          "oracle_amm"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/oracle_attack.md"
+      },
+      {
+        "id": "50",
+        "name": "51% Attack",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "other_defi_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/51_attack.md"
+      },
+      {
+        "id": "51",
+        "name": "Outdated Compiler",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "higher_level_programming_language"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/outdated_compiler.md"
+      },
+      {
+        "id": "52",
+        "name": "Reentrancy",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "inter_contract_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/reentrancy.md"
+      },
+      {
+        "id": "53",
+        "name": "Token Supply Manipulation",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "other_defi_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/token_supply_manipulation.md"
+      },
+      {
+        "id": "54",
+        "name": "Self Destruct",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "intra_contract_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/self-destruct.md"
+      },
+      {
+        "id": "55",
+        "name": "Short Address Parameter Attack",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "intra_contract_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/short_address_parameter_attack.md"
+      },
+      {
+        "id": "56",
+        "name": "State Variable Default Visibility Vulnerability",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "higher_level_programming_language"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/state_variable_default_visibility_vulnerability.md"
+      },
+      {
+        "id": "57",
+        "name": "Time Manipulation",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "intra_contract_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/time_manipulation.md"
+      },
+      {
+        "id": "58",
+        "name": "TX Origin Authentication",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "higher_level_programming_language"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/tx_origin_authentication.md"
+      },
+      {
+        "id": "59",
+        "name": "Unchecked Return Values",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "higher_level_programming_language"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/unchecked_return_values.md"
+      },
+      {
+        "id": "60",
+        "name": "Unexpected Ether",
+        "categories_id": [
+          "smart_contract_vulnerabilities",
+          "intra_contract_vulnerabilities"
+      ],
+        "tag_id": "execution",
+        "path": "/execution/unexpected_ether.md"
+      },
+      {
+        "id": "61",
+        "name": "Fake or Compromised Validator Nodes",
+        "categories_id": [
+          "higher_privilege_attacks"
+        ],
+        "tag_id": "command_and_control",
+        "path": "/command_and_control/fake_or_compromised_validator_nodes.md"
+      },
+      {
+        "id": "62",
+        "name": "Botnets",
+        "categories_id": [
+          "infrastructure"
+        ],
+        "tag_id": "command_and_control",
+        "path": "/command_and_control/botnets.md"
+      },
+      {
+        "id": "63",
+        "name": "Contract Ownership Changes",
+        "categories_id": [
+          "higher_privilege_attacks"
+        ],
+        "tag_id": "persistence",
+        "path": "/persistence/contract_ownership_changes.md"
+      },
+      {
+        "id": "64",
+        "name": "Malicious Smart Contracts",
+        "categories_id": [
+          "malicious_deployment"
+        ],
+        "tag_id": "persistence",
+        "path": "/persistence/malicious_smart_contracts.md"
+      },
+      {
+        "id": "65",
+        "name": "Backdoor",
+        "categories_id": [
+          "higher_privilege_attacks"
+        ],
+        "tag_id": "persistence",
+        "path": "/persistence/backdoor.md"
+      },
+      {
+        "id": "66",
+        "name": "Identity Spoofing",
+        "categories_id": [
+          "user_target"
+        ],
+        "tag_id": "credential_access",
+        "path": "/credential_access/identity_spoofing.md"
+      },
+      {
+        "id": "67",
+        "name": "Exchange Account Theft",
+        "categories_id": [
+          "higher_privilege_attacks"
+        ],
+        "tag_id": "credential_access",
+        "path": "/credential_access/exchange_account_theft.md"
+      },
+      {
+        "id": "68",
+        "name": "Social_Media_Credential_Theft",
+        "categories_id": [
+          "higher_privilege_attacks"
+        ],
+        "tag_id": "credential_access",
+        "path": "/credential_access/social_media_credential_theft.md"
+      },
+      {
+        "id": "69",
+        "name": "Private Key Theft",
+        "categories_id": [
+          "acquire_private_key"
+        ],
+        "tag_id": "credential_access",
+        "path": "/credential_access/private_key_theft.md"
+      },
+      {
+        "id": "70",
+        "name": "Governance Exploit - DAO takeover",
+        "categories_id": [
+          "logic"
+        ],
+        "tag_id": "privilege_escalation",
+        "path": "/privilege_escalation/governance_exploit_(dao_takeover).md"
+      },
+      {
+        "id": "71",
+        "name": "Blockchain Node Hijacking",
+        "categories_id": [
+          "higher_privilege_attacks"
+        ],
+        "tag_id": "privilege_escalation",
+        "path": "/privilege_escalation/blockchain_dode_hijacking.md"
+      },
+      {
+        "id": "72",
+        "name": "Guardian Takeover",
+        "categories_id": [
+          "higher_privilege_attacks"
+        ],
+        "tag_id": "privilege_escalation",
+        "path": "/privilege_escalation/guardian_takeover.md"
+      },
+      {
+        "id": "73",
+        "name": "Smart Contract Ownership Override",
+        "categories_id": [
+          "higher_privilege_attacks"
+        ],
+        "tag_id": "privilege_escalation",
+        "path": "/privilege_escalation/smart_contract_ownership_override.md"
+      },
+      {
+        "id": "74",
+        "name": "Privacy Solutions Like Monero",
+        "categories_id": [
+          "money_laundering"
+        ],
+        "tag_id": "extra_filtration",
+        "path": "/extra_filtration/privacy_solutions_like_monero.md"
+      },
+      {
+        "id": "75",
+        "name": "Atomic Swaps",
+        "categories_id": [
+          "money_laundering"
+        ],
+        "tag_id": "extra_filtration",
+        "path": "/extra_filtration/atomic_swaps.md"
+      },
+      {
+        "id": "76",
+        "name": "Multi-Chain Attacks",
+        "categories_id": [
+          "cross_chain"
+        ],
+        "tag_id": "lateral_movement",
+        "path": "/lateral_movement/multi-chain_attacks.md"
+      },
+      {
+        "id": "77",
+        "name": "Bridge Exploits",
+        "categories_id": [
+          "cross_chain"
+        ],
+        "tag_id": "lateral_movement",
+        "path": "/lateral_movement/bridge_exploits.md"
+      },
+      {
+        "id": "78",
+        "name": "Compromised Nodes",
+        "categories_id": [
+          "higher_privilege_attacks"
+        ],
+        "tag_id": "lateral_movement",
+        "path": "/lateral_movement/compromised_nodes.md"
+      },
+      {
+        "id": "79",
+        "name": "Network Shutdown",
+        "categories_id": [
+          "money_laundering"
+        ],
+        "tag_id": "impact",
+        "path": "/impact/network_shutdown.md"
+      },
+      {
+        "id": "80",
+        "name": "Data Destruction",
+        "categories_id": [
+          "money_laundering"
+        ],
+        "tag_id": "impact",
+        "path": "/impact/data_destruction.md"
+      },
+      {
+        "id": "81",
+        "name": "Disrupt System Operation",
+        "categories_id": [
+          "money_laundering"
+        ],
+        "tag_id": "impact",
+        "path": "/impact/disrupt_system_operation.md"
+      },
+      {
+        "id": "82",
+        "name": "Front Running",
+        "categories_id": [
+          "user_target"
+        ],
+        "tag_id": "impact",
+        "path": "/impact/front-running.md"
+      }
+    ]
+  }
