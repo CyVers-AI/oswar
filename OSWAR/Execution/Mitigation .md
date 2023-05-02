@@ -1,0 +1,13 @@
+# Mitigation
+
+Tags: Execution
+
+When it comes to most Web3 applications, the execution stage is where hacks happen most frequently. Three areas of particular concern are smart contracts, flash loans, and oracle attacks. To prevent smart contract vulnerabilities, it's crucial to conduct thorough security audits before deploying them on the blockchain. This should include testing for known vulnerabilities and conducting simulations of various attack scenarios to identify potential weaknesses. Developers should also design smart contracts with security in mind from the outset and follow best practices for secure coding.
+
+In addition to smart contract auditing, real-time monitoring of smart contracts and wallets is essential for a swift response in the event of an exploit. This proactive approach gives protocol founders and developers more versatility in preventing hacks before they cause devastating damage.
+
+To prevent oracle attacks, developers should implement secure coding practices, such as using multiple independent oracles and drawing a median of the reported price. They should also verify the data and reported price received from the oracle thoroughly. Choosing a reliable oracle is also essential, and developers should research and verify the oracle's reputation before using it. Furthermore, using a decentralized oracle network can add an additional layer of security to a dApp by ensuring the integrity of the data using multiple oracles to verify the same data.
+
+Mitigating the risks associated with flash loans is also important. DeFi developers and liquidity providers can implement measures such as circuit breakers to temporarily halt trading in the event of sudden price changes or liquidity imbalances. Transaction fees or other restrictions on flash loan usage can deter or limit the use of flash loans in trading strategies. Improving liquidity in AMM pools to reduce the impact of flash loan arbitrage and developing more sophisticated monitoring and analysis tools to detect and prevent flash loan attacks can also be helpful.
+
+Overall, mitigating Web3 attacks requires a proactive approach that involves both thorough auditing and real-time monitoring of smart contracts and wallets, choosing reliable oracles, and implementing measures to mitigate risks associated with flash loans. These measures can help ensure the security and integrity of Web3 systems and enable trustless automation in a safer environment.

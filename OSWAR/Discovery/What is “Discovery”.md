@@ -1,0 +1,7 @@
+# What is “Discovery”?
+
+Tags: Discovery
+
+Discovery involves mapping out the structure of a network. Attackers may use "discovery" tactics to gain insight into the system and internal network. Malicious parties can use these strategies to evaluate their surroundings and position themselves before an attack, in order to decide how to respond. They also investigate what they can control and the area around their access point to discover how certain strategies might help them achieve their current goal. Summing up discovery involves getting a list of all necessary information, such as wallets and smart contracts. For example, an attacker might fork the codebase and test several strategies before executing it in reality.
+
+While the "Discovery" category does involve gathering information about a target system (which could be part of the preparation phase of an attack), it usually occurs after the initial access has been established. Once an attacker has gained a foothold in a target network, they may use various techniques to map out the network, identify assets of interest, and determine how to move laterally through the network. Therefore, the "Discovery" category can also be considered part of the active exploitation rather than the preparation phase.

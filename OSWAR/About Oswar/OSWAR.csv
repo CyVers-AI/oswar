@@ -1,0 +1,150 @@
+﻿12,2,Category,Tags
+"What is “Reconnaissance""?",,,Reconnaissance
+What is Initial Access?,,,Initial Access
+1. Social Engineering,,,Reconnaissance
+What is “Resource Development”?,,,Resource Development
+What is “Execution”?,,,Execution
+What is “Persistence”?,,,Persistence
+What is “Privilege Escalation”?,,,Privilege Escalation
+What is “Defense Evasion”?,,,Defense Evasion
+What is “Credential Access”?,,,Credential Access
+What is “Discovery”?,,,Discovery
+What is “lateral movement”?,,,Lateral Movement
+What is “Collection”?,,,Collection
+What is “Command and Control”?,,,Command and Control
+What is “Exfiltration”?,,,Exfiltration
+What is “Impact”?,,,Impact
+1. Phishing for Information,,Acquire Private Key,Resource Development
+2. Social Engineering,,Acquire Private Key,Resource Development
+3. Brute Force Attack,,Infrastructure,Resource Development
+"8. Supply Chain Attacks: ",,,
+2. Dumpster Diving,,Acquire Private Key,Discovery
+4. Acquiring/creating Malware,,,Resource Development
+"5.28 Crypto-jacking: ",,,Execution
+5. Spear Phishing,,Acquire Private Key,Resource Development
+4.5 Keylogger,,Malware based,Resource Development
+6. Credential Stuffing,,Acquire Private Key,Resource Development
+Preparation phase: Green,,,
+1. Phishing,,,Initial Access
+"3. Server access ",,,Initial Access
+5. Smart contract vulnerabilities,,,Execution
+2. Zero Transfer Phishing,,User Target,Initial Access
+2. Smart Contract Scanning,,Analysis & profiling,Reconnaissance
+5.2 Reentrency,,Smart Contract Vulnerabilities,Execution
+5.4 Logic Bombs,,Smart Contract Vulnerabilities,Execution
+5.5 Access Control Issues,,Smart Contract Vulnerabilities,Execution
+1. Flash Loan (AMM Exploitation),,Oracle / AMM,Execution
+4. Validator Priviliges,,,Initial Access
+5. Front-Running,,User Target,Impact
+3. MEV,,User Target,Execution
+"3 STAGES of an attack with the MITRE framework ",,,
+5.12 Denial of Service (DoS),,,Execution
+5.9 Unchecked Return Values,,Smart Contract Vulnerabilities,Execution
+5.6 Integer overflow/Underflow,,Smart Contract Vulnerabilities,Execution
+5.7 Time manipulation,,Smart Contract Vulnerabilities,Execution
+5.8 Bad Randomness,,Logic,Execution
+5.10 Dependency Risks,,Smart Contract Vulnerabilities,Execution
+5.11 Cross-Chain Bridge Attacks.,,Cross Chain,Execution
+Exploitation phase: Purple,,,
+Money Laundering phase: Red,,,
+1. Contract Ownership Changes,,Higher Privilige Attacks,Persistence
+2. Backdoor,,Higher Privilige Attacks,Persistence
+3. Malicious Code Injection,,,Initial Access
+2. 51% attack,,Higher Privilige Attacks,Execution
+4. Guardian takeover,,Higher Privilige Attacks,Privilege Escalation
+1. API Discovery,,,Discovery
+"1. Smart Contract Ownership Override: ",,Higher Privilige Attacks,Privilege Escalation
+2. Blockchain Node Hijacking,,Higher Privilige Attacks,Privilege Escalation
+Blockchain Wallet Takeover,,,
+3. Governance exploit (DAO takeover),,Logic,Privilege Escalation
+2. Obfuscation,,Money Laundering,Defense Evasion
+Hidden communication channels,,,
+1. Mixing services,,Money Laundering,Defense Evasion
+3. Encryption,,Money Laundering,Defense Evasion
+Trusted processes abuse,,,
+4. Oracle attack,,Oracle / AMM,Execution
+"1. Private Key Theft ",,Acquire Private Key,Credential Access
+2. Social Media Credential Theft,,Higher Privilige Attacks,Credential Access
+3. Exchange Account Theft,,Higher Privilige Attacks,Credential Access
+4. Identity Spoofing,,User Target,Credential Access
+1. Onchain OSINT,,Analysis & profiling,Collection
+1. Fake or compromised validator nodes,,Higher Privilige Attacks,Command and Control
+2. Botnets,,Infrastructure,Command and Control
+4. Chain Hopping,,Money Laundering,Defense Evasion
+1. Multi-Chain Attacks,,Cross Chain,Lateral Movement
+Exploiting smart contracts,,,
+2. Compromised nodes,,Higher Privilige Attacks,Lateral Movement
+"Supply chain attacks: ",,,
+2. Atomic swaps,,Money Laundering,Exfiltration
+1. Privacy solutions like Monero,,Money Laundering,Exfiltration
+5.3 Unexpected Ether,,Smart Contract Vulnerabilities,Execution
+5.14 Delegate call,,Smart Contract Vulnerabilities,Execution
+5.15 Default Visibility,,Smart Contract Vulnerabilities,Execution
+Sources,,,
+5.16 Entropy illusion/predictability,,Smart Contract Vulnerabilities,Execution
+5.17 External contract referencing,,Smart Contract Vulnerabilities,Execution
+5.18 Short Address/Parameter Attack,,Smart Contract Vulnerabilities,Execution
+5.19 Block Timestamp Manipulation,,Smart Contract Vulnerabilities,Execution
+5.20 Constructors with Care,,Smart Contract Vulnerabilities,Execution
+5.21 Uninitialized storage pointers,,Smart Contract Vulnerabilities,Execution
+5.22 Tx.Origin Authentication,,Smart Contract Vulnerabilities,Execution
+Sources which can help but have not been used,,,
+5.23 Outdated Compiler,,Smart Contract Vulnerabilities,Execution
+5.24 Floating Pragma,,Smart Contract Vulnerabilities,Execution
+"5.25 Self-destruct ",,Smart Contract Vulnerabilities,Execution
+Read this first: Open Standard Web3 Attack Reference (OSWAR),,,
+5.26 Check-Effect- Interaction (CEI),,Smart Contract Vulnerabilities,Execution
+5.27 Token supply manipulation,,Smart Contract Vulnerabilities,Execution
+5. Malware,,Malware based,Initial Access
+"Important to know. ",,,
+———————————————————,,,
+3. Malware,,Malware based,Reconnaissance
+7. Network profiling,,Analysis & profiling,Resource Development
+Not yet placed,,,
+Roadmap,,,
+No Specific Phase: Yellow,,,
+6. Forged address phishing,,User Target,Initial Access
+1. Disrupt System Operation,,Money Laundering,Impact
+2. Data Destruction,,Money Laundering,Impact
+"3. Manipulate System Processes ",,,Impact
+3. Bridge exploits,,Cross Chain,Lateral Movement
+Mitigation,,,Lateral Movement
+MITRE WEB3 MEIR,,,
+Continue,,,Execution
+"5.1 State Variable Default Visibility Vulnerability ",,Smart Contract Vulnerabilities,Execution
+Techniques,,,Defense Evasion
+Mitigation,,,Defense Evasion
+Techniques,,,Collection
+Mitigation,,,Collection
+Techniques,,,Resource Development
+Mitigation,,,Resource Development
+Techniques,,,Reconnaissance
+Mitigation,,,Reconnaissance
+4. API endpoints,,Infrastructure,Reconnaissance
+Techniques,,,Initial Access
+Mitigation,,,Initial Access
+Techniques,,,Discovery
+Techniques,,,Execution
+Mitigation,,,Discovery
+"8. Resources for network-based attacks ",,Infrastructure,Resource Development
+Techniques,,,Command and Control
+Techniques,,,Persistence
+Techniques,,,Privilege Escalation
+Techniques,,,Credential Access
+Mitigation,,,Execution
+Mitigation,,,Command and Control
+Mitigation,,,Persistence
+Mitigation,,,Privilege Escalation
+Left Out,,,
+Mitigation,,,Credential Access
+Techniques,,,Lateral Movement
+Mitigation,,,Exfiltration
+Techniques,,,Exfiltration
+Techniques,,,Impact
+Mitigation,,,Impact
+4. Network shutdown,,Money Laundering,Impact
+Insufficient Input Validation,,,Execution
+,,,
+3. Malicious Smart Contracts,,Malicious deployment,Persistence
+2. Offchain OSINT,,Analysis & profiling,Collection
+"7. On-chain Scams ",,User Target,Initial Access
