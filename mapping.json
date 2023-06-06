@@ -294,15 +294,6 @@
         "path": "/resource_development/network_profiling.md"
       },
       {
-        "id": "19",
-        "name": "Malicious Code Injection",
-        "categories_id": [
-          "malicious_deployment"
-        ],
-        "tag_id": "resource_development",
-        "path": "/resource_development/malicious_code_injection.md"
-      },
-      {
         "id": "20",
         "name": "Malicious Code Injection",
         "categories_id": [
