@@ -892,6 +892,15 @@
         ],
         "tag_id": "impact",
         "path": "/impact/front-running.md"
+      },
+        {
+        "id": "83",
+        "name": "Rug Pull",
+        "categories_id": [
+          "persistence"
+        ],
+        "tag_id": "persistence",
+        "path": "/persistence/rugpull.md"
       }
     ]
   }
