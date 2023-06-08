@@ -902,5 +902,14 @@
         "tag_id": "initial_access",
         "path": "/initial_access/dns_hijacking.md"
       }
+    {
+      "id": "84",
+      "name": "Rug Pull",
+      "categories_id": [
+        "malicious_deployment"
+      ],
+      "tag_id": "persistence",
+      "path": "/persistence/rugpull.md"
+    }
     ]
   }
