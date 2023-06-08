@@ -892,6 +892,15 @@
         ],
         "tag_id": "impact",
         "path": "/impact/front-running.md"
+      },
+      {
+        "id": "83",
+        "name": "DNS Hijacking",
+        "categories_id": [
+          "higher_privilege_attacks"
+        ],
+        "tag_id": "initial_access",
+        "path": "/initial_access/dns_hijacking.md"
       }
     ]
   }
