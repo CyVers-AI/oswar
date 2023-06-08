@@ -16,12 +16,19 @@ MITRE ATT&CK Technique: Endpoint Denial of Service (T1499). By modifying the sma
 
 ## Mitigation
 Preventing rugpulls can be challenging due to the decentralized and permissionless nature of DeFi. However, there are several measures that can be taken to mitigate the risk of rugpulls:
-### Anonymous or unknown team: A team that is anonymous or unknown should be a red flag as they may not have any reputation to uphold and can disappear easily.
-### Unaudited code: A smart contract that has not been audited or reviewed by reputable third-party auditors increases the risk of vulnerabilities and potential exploits.
-### Centralized control: A smart contract that gives excessive control to the owner or a small group of individuals can lead to potential misuse of funds or a rugpull.
-### Lack of transparency: A rugpull often involves a lack of transparency or information on the project, such as unclear tokenomics or a lack of information on the team or project roadmap.
-### Unrealistic promises: Projects that make unrealistic promises of high returns or quick profits without a clear explanation of how these returns will be generated should be approached with caution.
-### Lack of liquidity: If a project has low liquidity or a small number of holders, it may be easier for a rugpull to occur as there may not be enough holders to prevent a large-scale dump.
-### Sudden changes or delays: A sudden change in the project roadmap or significant delays in project milestones without proper communication to investors can be a warning sign of a potential rugpull.
+### Anonymous or unknown team: 
+A team that is anonymous or unknown should be a red flag as they may not have any reputation to uphold and can disappear easily.
+### Unaudited code: 
+A smart contract that has not been audited or reviewed by reputable third-party auditors increases the risk of vulnerabilities and potential exploits.
+### Centralized control: 
+A smart contract that gives excessive control to the owner or a small group of individuals can lead to potential misuse of funds or a rugpull.
+### Lack of transparency: 
+A rugpull often involves a lack of transparency or information on the project, such as unclear tokenomics or a lack of information on the team or project roadmap.
+### Unrealistic promises: 
+Projects that make unrealistic promises of high returns or quick profits without a clear explanation of how these returns will be generated should be approached with caution.
+### Lack of liquidity: 
+If a project has low liquidity or a small number of holders, it may be easier for a rugpull to occur as there may not be enough holders to prevent a large-scale dump.
+### Sudden changes or delays: 
+A sudden change in the project roadmap or significant delays in project milestones without proper communication to investors can be a warning sign of a potential rugpull.
 
 ## Source: https://rekt.news/kokomo-finance-rekt/
