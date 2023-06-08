@@ -2,7 +2,7 @@
 # 2. DNS Hijacking
 
 Category: Higher Privilege Attacks
-Tags: initial_access
+Tags: Initial Access
 
 ### What is DNS Hijacking?
 DNS Hijacking, also known as DNS Redirection, is a form of malicious attack where an attacker alters the DNS (Domain Name System) configuration. The attacker can then redirect the victim to fraudulent websites, often for the purpose of phishing, spreading malware, or stealing sensitive information. DNS is crucial for internet browsing as it translates domain names (like www.example.com) into IP addresses. A DNS hijacking attack can manipulate this process, rerouting a user’s online traffic to potentially harmful destinations.
