@@ -1,5 +1,5 @@
 
-# 2. Off-chain OSINT
+# 2. DNS Hijacking
 
 Category: Higher Privilege Attacks
 Tags: initial_access
