@@ -894,10 +894,10 @@
         "path": "/impact/front-running.md"
       },
       {
-      "id": "83",
+      "id": "84",
       "name": "Rug Pull",
       "categories_id": [
-        "higher_privilege_attacks"
+        "malicious_deployment"
       ],
       "tag_id": "persistence",
       "path": "/persistence/rugpull.md"
