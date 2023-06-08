@@ -892,6 +892,15 @@
         ],
         "tag_id": "impact",
         "path": "/impact/front-running.md"
+      },
+      {
+        "id": "83",
+        "name": "Gas Griefing",
+        "categories_id": [
+          "user_target"
+        ],
+        "tag_id": "execution",
+        "path": "/execution/gas-griefing.md"
       }
     ]
   }
