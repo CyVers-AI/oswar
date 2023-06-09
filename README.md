@@ -22,15 +22,19 @@ The primary goal of OSWAR is to foster a safer and more secure ecosystem for the
 
 ## ✍️ Getting Started
 
-- Visit [oswar.org](https://www.oswar.org/) & you get to see various categories about different types of attacks.
-- Click on category of your choice & click on vulnerability of your choice.
-- Give it a read & if you have a new `attack` type to write & get it published, click on **Add Attack** & make necessary changes in the github.
-- Or if you feel like there are any changes on the content of the existing vulnerability.
-- Click on the **`EDIT`** button at the bottom of the page & you will be redirected to **Github**.
-- Make necessary changes & raise a **Pull Request** to the github repository for review.
+- To explore various categories of attacks, visit **[oswar.org](https://www.oswar.org/)**
+- Each category provides information about different types of attacks.
+- Once you `select a category`, you can choose a specific vulnerability to read about.
+- If you have a `new attack type` to contribute, you can click on **"Add Attack"** and make the necessary changes on the corresponding GitHub page. 
+- This will allow you to submit your new attack for publication.
+- If you find any **inaccuracies** or feel that changes are needed in the content of an existing vulnerability, you can click on the `"EDIT"` button at the bottom of the page. This will redirect you to the corresponding GitHub page where you can make the necessary modifications.
+-  After making the changes, you can raise a **Pull Request on the GitHub** repository for review.
 
 > Congratulations! You've successfully submitted your PR for review and publishing 🚀
 
 ## ✨ Feedback & Suggestions
 If you have any suggestions/feedback, you can contact us via [Telegram Community](https://t.me/oswarcommunity). Alternatively, feel free to open an issue if you find bugs or want to request new features.
 
+--------
+
+By leveraging the OSWAR framework, we can collectively enhance the security of Web3 technologies, making the decentralized ecosystem more resilient against attacks. Together, we can build a safer and more secure future for decentralization.
