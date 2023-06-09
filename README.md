@@ -11,7 +11,9 @@ OSWAR is a comprehensive framework inspired by the **MITRE ATT&CK framework**, d
 
 ## 🎯 Purpose
 
-The primary goal of OSWAR is to foster a safer and more secure ecosystem for the future of decentralization. By offering detailed information and guidance on securing blockchain platforms, decentralized applications, and other Web3 technologies, OSWAR aims to empower developers, auditors, and security researchers with the knowledge they need to defend against potential threats.
+- The primary goal of OSWAR is to foster a **safer and more secure ecosystem** for the future of decentralization. 
+- By offering detailed information and guidance on securing blockchain platforms, decentralized applications, and other Web3 technologies.
+- OSWAR aims to **empower developers, auditors, and security researchers** with the knowledge they need to defend against potential threats.
 
 ## 🔥 Features
 
