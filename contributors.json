@@ -3,19 +3,19 @@
     "name": "Deddy Lavid",
     "position": "CEO, Co-Founder",
     "company": "Cyvers",
-    "link":"https://cyvers.ai/"
+    "link":"https://www.linkedin.com/in/deddy-lavid-19b8151b/"
   },
   {
     "name": "Meir Dolev",
     "position": "CTO, Co-Founder",
     "company": "Cyvers",
-    "link":"https://cyvers.ai/"
+    "link":"https://www.linkedin.com/in/meir-dolev-80892267/"
   },
   {
     "name": "Jonatan Blum",
     "position": "Blockchain Researcher",
     "company": "Cyvers",
-    "link":"https://cyvers.ai/"
+    "link":"https://www.linkedin.com/in/jonatan-blum-1228b121a/"
   },
   {
     "name": "Evangelos Deirmentzoglou",
@@ -94,5 +94,17 @@
     "position": "CEO, Founder",
     "company": "Crypto Bank",
     "link":"https://www.linkedin.com/in/neor-basteker/"
+  },
+  {
+    "name": "Gul Hameed",
+    "position": "Penetration Tester",
+    "company": "BlockApex",
+    "link":"https://www.linkedin.com/in/gul-hameed/"
+  },
+{
+    "name": "Muhammad Abdullah",
+    "position": "Security Researcher",
+    "company": "BlockApex",
+    "link":"https://www.linkedin.com/in/muhammad-abdullah-61ba0385/"
   }
 ]
