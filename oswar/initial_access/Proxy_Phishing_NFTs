@@ -1,4 +1,4 @@
-# 2. OpenSea OwnableDelegateProxy Phishing
+# 2. Proxy Phishing NFTs
 
 Category: User Target 
 Tags: Initial Access
