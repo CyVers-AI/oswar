@@ -906,6 +906,15 @@
 			],
 			"tag_id": "persistence",
 			"path": "/persistence/rugpull.md"
+		},
+		{
+			"id": "85",
+			"name": "OpenSea OwnableDelegateProxy phishing",
+			"categories_id": [
+				"user_target"
+			],
+			"tag_id": "initial_access",
+			"path": "/initial_access/opensea_ownabledelegateproxy_phishing.md"
 		}
 	]
 }
