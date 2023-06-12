@@ -1,6 +1,6 @@
 # 2. OpenSea OwnableDelegateProxy Phishing
 
-Category: User Target
+Category: User Target 
 Tags: Initial Access
 
 ### What is "OpenSea OwnableDelegateProxy Phishing"?
@@ -19,4 +19,4 @@ However, a minority of users are still using the old contract [WyvernProxyRegist
 Users are advised to exercise caution before signing any transactions and to thoroughly verify the details of each transaction. Additionally, it is recommended to revoke permissions to the old OpenSea contract via platforms such as Revoke.cash, to limit potential exposure to this form of attack.
 
 ### Reference
-[2 BYAC hacked by signing a malicious Opensea OwnableDelegateProxy upgrade transaction](https://twitter.com/realScamSniffer/status/1666258509221216257)
+- [2 BYAC hacked by signing a malicious Opensea OwnableDelegateProxy upgrade transaction](https://twitter.com/realScamSniffer/status/1666258509221216257)
