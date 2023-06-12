@@ -915,6 +915,15 @@
 			],
 			"tag_id": "initial_access",
 			"path": "/initial_access/Proxy_Phishing_NFTs.md"
+		},
+		{
+			"id": "86",
+			"name": "Gas Griefing",
+			"categories_id": [
+				"smart_contract_vulnerabilities"
+			],
+			"tag_id": "execution",
+			"path": "/execution/gas_griefing.md"
 		}
 	]
 }
