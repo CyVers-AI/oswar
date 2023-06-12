@@ -909,7 +909,7 @@
 		},
 		{
 			"id": "85",
-			"name": "OpenSea OwnableDelegateProxy phishing",
+			"name": "Proxy Phishing NFTs",
 			"categories_id": [
 				"user_target"
 			],
