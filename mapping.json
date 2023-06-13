@@ -54,6 +54,10 @@
 		{
 			"name": "Impact",
 			"id": "impact"
+		},
+		{
+			"name": "Gas Vulnerabilities",
+			"id": "gas_vulnerabilities"
 		}
 	],
 	"categories": [{
@@ -915,6 +919,15 @@
 			],
 			"tag_id": "initial_access",
 			"path": "/initial_access/Proxy_Phishing_NFTs.md"
+		},
+		{
+			"id": "86",
+			"name": "Gas Griefing",
+			"categories_id": [
+				"smart_contract_vulnerabilities"
+			],
+			"tag_id": "gas_vulnerabilities",
+			"path": "/gas_vulnerabilities/gas_griefing.md"
 		}
 	]
 }
