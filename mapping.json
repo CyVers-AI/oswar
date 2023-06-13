@@ -54,6 +54,10 @@
 		{
 			"name": "Impact",
 			"id": "impact"
+		},
+		{
+			"name": "Gas Vulnerabilities",
+			"id": "gas_vulnerabilities"
 		}
 	],
 	"categories": [{
