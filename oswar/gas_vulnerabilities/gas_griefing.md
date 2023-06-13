@@ -9,7 +9,7 @@ Gas griefing attack happens when a user sends the amount of gas required to exec
 This can be particularly problematic for a relayer contract. In this case, the individual who carries out the transaction, known as the 'forwarder', can essentially block transactions by allocating just enough gas for the transaction to be executed, but not providing sufficient gas for the sub-call to be successful.
 
 ## An illustration of the Gas Griefing security vulnerability in technical terms
-```
+```js
 pragma solidity ^0.5.0;
 
 contract Relayer {
