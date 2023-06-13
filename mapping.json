@@ -922,8 +922,8 @@
 			"categories_id": [
 				"smart_contract_vulnerabilities"
 			],
-			"tag_id": "execution",
-			"path": "/execution/gas_griefing.md"
+			"tag_id": "gas_vulnerabilities",
+			"path": "/gas_vulnerabilities/gas_griefing.md"
 		}
 	]
 }
