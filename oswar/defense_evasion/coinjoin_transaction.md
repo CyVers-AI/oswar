@@ -42,8 +42,8 @@ Please note that in real-world usage, CoinJoin transactions often involve more t
 
 **Reference**
 
-[CoinJoin](https://en.bitcoin.it/wiki/CoinJoin)
+- [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin)
 
-[MistTrack Case 02: Wasabi Coinjoin Withdrawal Analysis](https://slowmist.medium.com/misttrack-case-study-ii-wasabi-coinjoin-withdrawal-analysis-a3879a59cf4)
+- [MistTrack Case 02: Wasabi Coinjoin Withdrawal Analysis](https://slowmist.medium.com/misttrack-case-study-ii-wasabi-coinjoin-withdrawal-analysis-a3879a59cf4)
 
-[The Unique Dressing of Transactions: Wasabi CoinJoin Transaction](https://pure.hw.ac.uk/ws/portalfiles/portal/55850474/TirMaaEroJus_EICC_2022_camera_ready.pdf)
+- [The Unique Dressing of Transactions: Wasabi CoinJoin Transaction](https://pure.hw.ac.uk/ws/portalfiles/portal/55850474/TirMaaEroJus_EICC_2022_camera_ready.pdf)
