@@ -928,6 +928,15 @@
 			],
 			"tag_id": "gas_vulnerabilities",
 			"path": "/gas_vulnerabilities/gas_griefing.md"
+		},
+		{
+		      "id": "87",
+		      "name": "CoinJoin Transaction",
+		      "categories_id": [
+		        "money_laundering"
+		      ],
+		      "tag_id": "defense_evasion",
+		      "path": "/defense_evasion/coinjoin_transaction.md"
 		}
 	]
 }
