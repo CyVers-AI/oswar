@@ -10,7 +10,7 @@ It works by redirecting the target node's inbound and outbound connections to no
 
 This can lead to the target node wasting processing power mining blocks that can not be included on the legitimate network. In theory, this could lead to a 51% attack if the malicious actor is able to isolate enough nodes on the network and increase the value of their own processing power.
 
-The target node code also then be a victim of a double spend attack if misdirected to accept an input that has already been used in a transaction on the legitimate network.
+The target node could also then be a victim of a double spend attack if misdirected to accept an input that has already been used in a transaction on the legitimate network.
   
 
 ### Example
