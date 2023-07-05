@@ -937,6 +937,13 @@
 		      ],
 		      "tag_id": "defense_evasion",
 		      "path": "/defense_evasion/coinjoin_transaction.md"
+		},
+		{
+			"id": "88",
+			"name": "Eclipse Attack",
+			"categories_id": ["user_target"],
+			"tag_id": "impact",
+			"path": "/impact/eclipse_attack.md"
 		}
 	]
 }
