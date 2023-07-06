@@ -109,10 +109,10 @@ Following are some options to mitigate the Denial of Service with Gas Limit.
 - Enable banker (receiver contract) to process multiple transactions.
 - Perform gasEstimations before doing the transaction to the subcontract.
 
-:star: Great news! DoS in Gas Limit can be mitigated and remediated! Don't fret.
+Great news! DoS in Gas Limit can be mitigated and remediated! Don't fret.
 
 ## Reference
 - [Denial of Service With Gas Limit](https://github.com/serial-coder/solidity-security-by-example/tree/main/10_denial_of_service_with_gas_limit)
-- [<b> Consensys </b> Ethereum Smart Contract Best Practices: Denial of Service](https://consensys.github.io/smart-contract-best-practices/attacks/denial-of-service/)
+- [Consensys Ethereum Smart Contract Best Practices: Denial of Service](https://consensys.github.io/smart-contract-best-practices/attacks/denial-of-service/)
 - [Medium Article: Solidity Security By Example #10: Denial of Service With Gas Limit](https://medium.com/valixconsulting/solidity-security-by-example-10-denial-of-service-with-gas-limit-346e87e2ef78)
 - [SWC Registry: SWC-128](https://swcregistry.io/docs/SWC-128)
