@@ -792,7 +792,7 @@
 				"higher_privilege_attacks"
 			],
 			"tag_id": "privilege_escalation",
-			"path": "/privilege_escalation/blockchain_dode_hijacking.md"
+			"path": "/privilege_escalation/blockchain_node_hijacking.md"
 		},
 		{
 			"id": "72",
