@@ -946,7 +946,7 @@
 			"path": "/impact/eclipse_attack.md"
 		},		{
 			"id": "89",
-			"name": "Gas Griefing",
+			"name": "Denial of Service with Gas Limit",
 			"categories_id": [
 				"smart_contract_vulnerabilities"
 			],
