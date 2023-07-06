@@ -44,8 +44,8 @@
 			"id": "privilege_escalation"
 		},
 		{
-			"name": "Extra filtration",
-			"id": "extra_filtration"
+			"name": "Exfiltration",
+			"id": "exfiltration"
 		},
 		{
 			"name": "Lateral Movement",
@@ -818,8 +818,8 @@
 			"categories_id": [
 				"money_laundering"
 			],
-			"tag_id": "extra_filtration",
-			"path": "/extra_filtration/privacy_solutions_like_monero.md"
+			"tag_id": "exfiltration",
+			"path": "/exfiltration/privacy_solutions_like_monero.md"
 		},
 		{
 			"id": "75",
@@ -827,8 +827,8 @@
 			"categories_id": [
 				"money_laundering"
 			],
-			"tag_id": "extra_filtration",
-			"path": "/extra_filtration/atomic_swaps.md"
+			"tag_id": "exfiltration",
+			"path": "/exfiltration/atomic_swaps.md"
 		},
 		{
 			"id": "76",
