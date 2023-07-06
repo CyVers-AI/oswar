@@ -944,6 +944,14 @@
 			"categories_id": ["user_target"],
 			"tag_id": "impact",
 			"path": "/impact/eclipse_attack.md"
+		},		{
+			"id": "89",
+			"name": "Gas Griefing",
+			"categories_id": [
+				"smart_contract_vulnerabilities"
+			],
+			"tag_id": "gas_vulnerabilities",
+			"path": "/gas_vulnerabilities/DoS-gas-limit"
 		}
 	]
 }
