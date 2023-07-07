@@ -1,4 +1,4 @@
-# 5.2 Reentrancy
+# 5.2 Reentrency
 
 Category: Smart Contract Vulnerabilities
 Tags: Execution
