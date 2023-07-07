@@ -1,6 +1,5 @@
 # Denial of Service with Gas Limit
 
-
 Category: Smart Contract Vulnerabilities
 Tags: Gas Vulnerabilities
 
