@@ -951,7 +951,7 @@
 				"smart_contract_vulnerabilities"
 			],
 			"tag_id": "gas_vulnerabilities",
-			"path": "/gas_vulnerabilities/DoS-gas-limit"
+			"path": "/gas_vulnerabilities/DoS-gas-limit.md"
 		}
 	]
 }
