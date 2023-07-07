@@ -1,7 +1,7 @@
 # Sybil Attack
 
 Category: Smart Contract Vulnerabilities
-Tags: 
+Tags: Impact
 
 ## What is Sybil Attack?
 Sybil attacks occur when large amounts of nodes are created in an attempt to disrupt a P2P(peer-to-peer) network operation by hijacking or dropping messages. The nodes created are pseudonymous identities that gain disproportionately large influence in the network. Sybil attacks typically occur on blockchains that operate on PoS(Proof-of-Stake) consensus mechanism.
