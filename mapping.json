@@ -961,6 +961,15 @@
 			],
 			"tag_id": "impact",
 			"path": "/impact/sybil_attack.md"
+		},
+		{
+			"id": "91",
+			"name": "Spartacus Attack",
+			"categories_id": [
+				"smart_contract_vulnerabilities"
+			],
+			"tag_id": "impact",
+			"path": "/impact/spartacus_attack.md"
 		}
 	]
 }
