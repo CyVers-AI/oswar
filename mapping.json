@@ -970,6 +970,15 @@
 			],
 			"tag_id": "impact",
 			"path": "/impact/spartacus_attack.md"
+		},
+		{
+			"id": "92",
+			"name": "Mirroring Attack",
+			"categories_id": [
+				"oracle_amm"
+			],
+			"tag_id": "execution",
+			"path": "/execution/mirroring_attack.md"
 		}
 	]
 }
