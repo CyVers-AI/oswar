@@ -930,13 +930,13 @@
 			"path": "/gas_vulnerabilities/gas_griefing.md"
 		},
 		{
-		      "id": "87",
-		      "name": "CoinJoin Transaction",
-		      "categories_id": [
-		        "money_laundering"
-		      ],
-		      "tag_id": "defense_evasion",
-		      "path": "/defense_evasion/coinjoin_transaction.md"
+			"id": "87",
+			"name": "CoinJoin Transaction",
+			"categories_id": [
+				"money_laundering"
+			],
+			"tag_id": "defense_evasion",
+			"path": "/defense_evasion/coinjoin_transaction.md"
 		},
 		{
 			"id": "88",
@@ -944,7 +944,7 @@
 			"categories_id": ["user_target"],
 			"tag_id": "impact",
 			"path": "/impact/eclipse_attack.md"
-		},		{
+		}, {
 			"id": "89",
 			"name": "Denial of Service with Gas Limit",
 			"categories_id": [
@@ -952,6 +952,15 @@
 			],
 			"tag_id": "gas_vulnerabilities",
 			"path": "/gas_vulnerabilities/DoS-gas-limit.md"
+		},
+		{
+			"id": "90",
+			"name": "Sybil Attack",
+			"categories_id": [
+				"smart_contract_vulnerabilities"
+			],
+			"tag_id": "impact",
+			"path": "/impact/sybil_attack.md"
 		}
 	]
 }
