@@ -987,7 +987,7 @@
 				"smart_contract_vulnerabilities"
 			],
 			"tag_id": "execution",
-			"path": "/execution/semantic_errors"
+			"path": "/execution/semantic_errors.md"
 		}
 	]
 }
