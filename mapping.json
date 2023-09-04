@@ -979,6 +979,15 @@
 			],
 			"tag_id": "execution",
 			"path": "/execution/mirroring_attack.md"
+		},
+		{
+			"id": "93",
+			"name": "Semantic Errors",
+			"categories_id": [
+				"smart_contract_vulnerabilities"
+			],
+			"tag_id": "execution",
+			"path": "/execution/semantic_errors"
 		}
 	]
 }
