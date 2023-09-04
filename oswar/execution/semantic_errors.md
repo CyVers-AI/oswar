@@ -52,8 +52,8 @@ This should instead be:
 _approve(from, msg.sender, _allowances[from][msg.sender] - amount);
 
 The semantic error here is that the _approve function is updating the wrong allowance mapping. The allowance should be updated for msg.sender who is the spender, not the to address.
-
-##Solutions and Best Practices
+```
+## Solutions and Best Practices
 
 To mitigate and prevent semantic errors, consider the following strategies:
 
