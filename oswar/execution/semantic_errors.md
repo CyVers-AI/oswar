@@ -1,10 +1,11 @@
-# Solidity Security: Understanding Semantic Errors in Smart Contracts
+# Semantic Errors in Smart Contracts
 
-Category: Smart Contract Vulnerabilities Tags: Execution
+Category: Smart Contract Vulnerabilities 
+Tags: Execution
 
 ## Overview
 
-Semantic errors represent a unique category of vulnerabilities in smart contracts, often eluding detection by both static and dynamic analysis tools. These errors occur at the level of the contract's logic and require deep understanding of the intended behavior of each function and variable. Understanding semantic errors is crucial for developing secure and reliable smart contracts.
+Semantic errors represent a unique category of vulnerabilities in smart contracts, often eluding detection by both static and dynamic analysis tools. These errors occur at the level of the contract's logic and require a deep understanding of the intended behavior of each function and variable. Understanding semantic errors is crucial for developing secure and reliable smart contracts.
 
 ## Description
 
@@ -13,7 +14,7 @@ Semantic errors are subtle flaws that usually occur due to misunderstandings or 
 ### Characteristics:
 
 - Not easily detected by static or dynamic analyzers.
-- Require understanding the semantic meaning behind every function and variable.
+- Require understanding of the semantic meaning behind every function and variable.
 - May violate the invariants of the smart contract.
 
 ## Notable Examples
