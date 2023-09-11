@@ -39,6 +39,7 @@ Sources:
 
 1. [https://consensys.github.io/smart-contract-best-practices/known_attacks/#unchecked-call-return](https://consensys.github.io/smart-contract-best-practices/known_attacks/#unchecked-call-return)
 2. [http://www.web3isgoinggreat.com/](http://www.web3isgoinggreat.com/)
+3. [DeFi Protocol Attack Taxonomy (dPAT) by Rektify AI](https://github.com/RektifyAI/attack-playbook/blob/main/taxonomy/defi_taxonomy.md)
 
 ---
 
@@ -47,15 +48,18 @@ Left out:
 - Single-Function Reentrancy
 - Cross-Function Reentrancy
 - Cross-Contract Reentrancy
+- Cross-Chain Reentrancy
 - Read-Only Reentrancy
 
-Single-Function Reentrancy, Cross-Function Reentrancy, Cross-Contract Reentrancy, and Read-Only Reentrancy are all different types of reentrancy attacks that can occur in a smart contract.
+Single-Function Reentrancy, Cross-Function Reentrancy, Cross-Contract Reentrancy, Cross-Chain Reentrancy and Read-Only Reentrancy are all different types of reentrancy attacks that can occur in a smart contract.
 
 Single-Function Reentrancy occurs when an attacker repeatedly calls the same function within a smart contract before the previous invocation has finished executing, allowing them to manipulate the state of the contract or drain its funds.
 
 Cross-Function Reentrancy involves an attacker exploiting vulnerabilities between different functions within the same smart contract, allowing them to repeatedly call back and forth between these functions to manipulate the contract's state or funds.
 
 Cross-Contract Reentrancy occurs when an attacker exploits vulnerabilities between different smart contracts on the same blockchain platform, allowing them to repeatedly call back and forth between these contracts to manipulate their states or funds.
+
+Cross-Chain Reentrancy occurs when a contract is on multiple chains and uses a bridge to connect these chains. An attacker can then exploit the logic of the contract in order to create multiple copies of an NFT and make it a fungible token by copying it on multiple chains.
 
 Read-Only Reentrancy is a type of reentrancy attack that does not involve modifying the state or funds of a smart contract, but instead involves repeatedly reading sensitive data from the contract before the previous invocation has finished executing, allowing the attacker to gather information that could be used in other attacks.
 
